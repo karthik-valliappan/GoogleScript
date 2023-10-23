@@ -1,2 +1,2 @@
 # Googlescript
-GS for Convert sheet data as Restful API 
+Google script for Converting sheet data as Restful API to access data from app
