@@ -11,11 +11,7 @@ function doGet(req) {
     values[i][0] = formatDate(values[i][0]);
   }
 
-  var responseData = {
-    data: values
-  };
-
-  return ContentService.createTextOutput(JSON.stringify(responseData))
+  return ContentService.createTextOutput(JSON.stringify(values))
     .setMimeType(ContentService.MimeType.JSON);
 }
 
